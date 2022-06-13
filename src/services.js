@@ -1,6 +1,6 @@
 
 import axios from "axios";
-const API="https://github.com/paygudedipti/reactcrudapp/blob/1244b9f2a8f7fc84d06a0ece17e994a31ddeb0af/src/server/Product.json"
+const API="https://paygudedipti.github.io/reactcrudapp/src/server/Product.json/"
 
 function getAllProduct(){
     return axios.get(API);
