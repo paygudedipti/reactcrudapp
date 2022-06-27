@@ -1,6 +1,6 @@
 
 import axios from "axios";
-const API="http://localhost:3001/products/"
+const API="https://paygudedipti.github.io/reactcrudapp/src/server/Product.json/products/"
 
 function getAllProduct(){
     return axios.get(API);
